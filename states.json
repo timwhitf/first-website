@@ -1,0 +1,32 @@
+{"state":
+  [
+    {
+      "name":"Indiana",
+      "capital":"Indianapolis",
+      "nickname":"Hoosier State",
+      "principal_city":"Indianapolis",
+      "claim_to_fame":"Indy 500"
+    }
+    {
+      "name":"Michigan",
+      "capital":"Lansing",
+      "nickname":"Wolverine State",
+      "principal_city":"Detroit",
+      "claim_to_fame":"Big Three Auto Manufacturers"
+    }
+    {
+      "name":"Tennessee",
+      "capital":"Nashville",
+      "nickname":"Volunteer State",
+      "principal_city":"Memphis",
+      "claim_to_fame":"Great Smoky Mountains"
+    }
+    {
+      "name":"Florida",
+      "capital":"Tallahassee",
+      "nickname":"Sunshine State",
+      "principal_city":"Miami",
+      "claim_to_fame":"sunny beaches"
+    }
+  ]
+}

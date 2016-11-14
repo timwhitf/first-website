@@ -4,6 +4,17 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script id="increment">
+    function nextState() {
+      var array = JSON.parse("cs.iupui.edu/~timwhitf/first-website/states.json//states");
+      var out = "";
+      var i = 0;
+      for (i = 0; i < array.length; i++) {
+        out += '<p>' += array[i].state += '</p>';
+      }
+      document.getElementById("message").innerHTML = out;
+    }
+  </script>
 </head>
 <body>
   <div class="jumbotron text-center">
@@ -12,7 +23,7 @@
   <p>Don't you agree?</p>
 </div>
 <div>
-  <button id="message generator" onclick="document.getElementById('message').style.display='none'">What do you think?</button>
+  <button id="message generator" onclick="increment">What do you think?</button>
 </div>
 <div>
   <p id="message">Greetings</p>
